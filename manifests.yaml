@@ -110,13 +110,13 @@ spec:
         app: "sedemo-app-invisible-app"
     spec:
       containers:
-        - image: "ghcr.io/akuity/sedemo-app-invisible:2"
+        - image: "ghcr.io/akuity/sedemo-app-invisible:3"
           name: "sedemo-app-invisible-app"
           ports:
             - containerPort: 80
           env:
             - name: SEMVER
-              value: "2"
+              value: "3"
             - name: STAGE
               value: prod
             - name: NAMESPACE
